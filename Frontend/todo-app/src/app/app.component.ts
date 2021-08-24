@@ -13,6 +13,11 @@ export class AppComponent {
   casado: boolean = false;
   edad: number = 17;
   listaNombres: string[] = ["Alejandro","Cristian","Rogger","Sergio"];
+  persona = {
+    name: "Rogger",
+    age: 24,
+    married: false
+  }
 
   guardar(){
     this.nombreGuardado = this.nombre;
